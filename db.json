@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "Ideal Self",
+      "bank account": "Swiss Checking",
+      "account balance": 1000000,
+      "weekly income": 2000
+    }
+  ],
+  "budgets": [
+    {
+      "budgetname": "groceries",
+      "weekly budget": 125
+    },
+    {
+      "budgetname": "transport",
+      "weekly budget": 200
+    },
+    {
+      "budgetname": "fun",
+      "weekly budget": 500
+    },
+    {
+      "budgetname": "utilities",
+      "weekly budget": 175
+    },
+    {
+      "budgetname": "housing",
+      "weekly budget": 500
+    },
+    {
+      "budgetname": "savings",
+      "weekly budget": 500
+    },
+    {
+      "budgetname": "misc",
+      "weekly budget": 250
+    }
+  ],
+  "expenses": [
+    {
+      "Destination": "Bell Bank",
+      "Amount": 1000,
+      "budgetCatagory": "housing"
+    },
+    {
+      "Destination": "Coop",
+      "Amount": 50,
+      "budgetCatagory": "groceries"
+    }
+  ],
+  "income": [
+    {
+      "source": "York Solutions",
+      "amount": 2000
+    }
+  ]
+}
+
