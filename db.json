@@ -1,5 +1,6 @@
+
 {
-  "users": [
+  "User": [
     {
       "id": 0,
       "username": "Ideal Self",
@@ -8,35 +9,12 @@
       "weekly income": 2000
     }
   ],
-  "budgets": [
+  "Budget": [
     {
-      "budgetname": "groceries",
+      "budget name": "groceries",
       "weekly budget": 125
-    },
-    {
-      "budgetname": "transport",
-      "weekly budget": 200
-    },
-    {
-      "budgetname": "fun",
-      "weekly budget": 500
-    },
-    {
-      "budgetname": "utilities",
-      "weekly budget": 175
-    },
-    {
-      "budgetname": "housing",
-      "weekly budget": 500
-    },
-    {
-      "budgetname": "savings",
-      "weekly budget": 500
-    },
-    {
-      "budgetname": "misc",
-      "weekly budget": 250
     }
+
   ],
   "expenses": [
     {
@@ -50,7 +28,7 @@
       "budgetCatagory": "groceries"
     }
   ],
-  "income": [
+  "incomes": [
     {
       "source": "York Solutions",
       "amount": 2000
