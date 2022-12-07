@@ -8,6 +8,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {HttpClientModule} from '@angular/common/http';
 import { TransationComponent } from './transation/transation.component';
 import { AccountsComponent } from './accounts/accounts.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { AccountsComponent } from './accounts/accounts.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatMenuModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]
