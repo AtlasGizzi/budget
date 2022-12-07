@@ -7,8 +7,9 @@ import { UiService } from './services/ui.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  constructor ( public ui: UiService) {
+  constructor (public ui: UiService) {
 
   }
 }

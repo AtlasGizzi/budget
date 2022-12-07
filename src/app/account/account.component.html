@@ -1,0 +1,14 @@
+<h1>This is the account compoent</h1>
+<label for="checking">Checking Account</label>
+<input type="radio" id="checking" value="checking" checked>
+<label for="savings">Savings Account</label>
+<input type="radio" id="savings" value="savings">
+<label for="other">Other Account Type</label>
+<input type="radio" id="other" value="other">
+
+<label for="amount">How much do you currently have in this bank account?</label>
+<input type="number" id="amount" min="1">
+<button>Add a bank account</button>
+<button (click)="ui.setShowHome()">Go back to your dashboard</button>
+<button (click)="ui.setShowTransactions()">Add a new transaction</button>
+<button (click)="ui.setShowAccount()">Add a new accout</button>

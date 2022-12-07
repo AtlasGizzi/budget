@@ -1,6 +1,6 @@
 
 {
-  "User": [
+  "Users": [
     {
       "id": 0,
       "username": "Ideal Self",
@@ -9,14 +9,14 @@
       "weekly income": 2000
     }
   ],
-  "Budget": [
+  "Budgets": [
     {
       "budget name": "groceries",
       "weekly budget": 125
     }
 
   ],
-  "expenses": [
+  "Expenses": [
     {
       "Destination": "Bell Bank",
       "Amount": 1000,
@@ -28,7 +28,7 @@
       "budgetCatagory": "groceries"
     }
   ],
-  "incomes": [
+  "Incomes": [
     {
       "source": "York Solutions",
       "amount": 2000

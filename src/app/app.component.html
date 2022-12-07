@@ -1,1 +1,9 @@
+
+<!-- <mat-menu #menu="matMenu">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu> -->
 <app-home *ngIf="ui.getShowHome()"></app-home>
+<app-budget *ngIf="ui.getShowCreateBudget()"></app-budget>
+<app-account *ngIf="ui.getShowAccount()"></app-account>
+<app-transation *ngIf="ui.getShowTransactions()"></app-transation>
