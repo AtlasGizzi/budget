@@ -2,10 +2,12 @@
 export class Budget {
 
   name: string
-  weeklyBudget: number | null
+  amount: number | null
+  id: number | null
 
-  constructor (name: string, weeklyBudget: number | null) {
+  constructor (name: string, amount: number | null, id: number | null) {
     this.name = name;
-    this.weeklyBudget = weeklyBudget;
+    this.amount = amount;
+    this.id = id;
   }
 }

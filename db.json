@@ -1,4 +1,3 @@
-
 {
   "Users": [
     {
@@ -9,12 +8,12 @@
       "weekly income": 2000
     }
   ],
-  "Budgets": [
+  "budgets": [
     {
-      "budget name": "groceries",
-      "weekly budget": 125
+      "name": "Grocery",
+      "amount": 1,
+      "id": 0.0809615882967134
     }
-
   ],
   "Expenses": [
     {
@@ -35,4 +34,3 @@
     }
   ]
 }
-

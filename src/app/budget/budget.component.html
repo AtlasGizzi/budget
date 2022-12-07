@@ -3,8 +3,8 @@
 <input type="text" id="name" [(ngModel)]="name">
 <label for="name">Name your budget (i.e. Groceries)</label>
 <label for="weeklyBudget">How much will you spend per week on this catagory?</label>
-<input type="number" id="weeklyBudget">
-<button>Create Budget {{name}}</button>
+<input type="number" id="weeklyBudget" [(ngModel)]="amount">
+<button (click)="ui.createBudget(name, amount)">Create Budget {{name}}</button>
 <button (click)="ui.setShowHome()">Go back to your dashboard</button>
 <button (click)="ui.setShowTransactions()">Add a new transaction</button>
 <button (click)="ui.setShowAccount()">Add a new accout</button>

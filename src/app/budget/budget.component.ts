@@ -6,8 +6,12 @@ import { UiService } from '../services/ui.service';
   styleUrls: ['./budget.component.css']
 })
 export class BudgetComponent {
-  private name: string = ""
+  public name: string = ""
+  public amount: number | null = 0
+  
   constructor (public ui: UiService){}
+
+  
 }
 
 

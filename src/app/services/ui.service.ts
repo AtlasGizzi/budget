@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
+import { Budget } from '../Data/Budget';
+import { Observable, take } from 'rxjs';
 
 
 @Injectable({
@@ -52,11 +54,29 @@ export class UiService {
     this.showAccount = false
     this.showCreateBudget = false
   }
-    public setShowHome (): void {
-      this.showHome = true
-      this.showAccount = false
-      this.showCreateBudget = false
-      this.showTransactions = false
+  public setShowHome (): void {
+    this.showHome = true
+    this.showAccount = false
+    this.showCreateBudget = false
+    this.showTransactions = false
 
-    }
   }
+  createBudget (name: string, amount: number | null) 
+  {
+    const budget = {
+      name:name,
+      amount:amount,
+      id: Math.random()
+    }
+    //call post request here
+    this.addBudget(budget)
+  }
+  //create post request here
+  addBudget (budget:Budget){
+    this.http.post<Budget>("http://localhost:3000/budgets", budget)
+    .pipe(take(1))
+    .subscribe({next:(budget)=>{
+      
+    }})
+  }
+}
